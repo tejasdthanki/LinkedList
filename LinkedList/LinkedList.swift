@@ -17,6 +17,7 @@ public class LinkedList<T> {
     }
     
     public var last:Node<T>?{
+        /*
         guard var node = head else {
             return nil
         }
@@ -24,6 +25,16 @@ public class LinkedList<T> {
             node = next
         }
         return node
+         */
+        if head == nil{
+            return nil
+        }else{
+            var node = head
+            while let next = node?.next {
+                node = next
+            }
+            return node
+        }
     }
     
     init() {
