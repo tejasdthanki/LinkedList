@@ -15,6 +15,8 @@
 		FAA76B4825E65C8D00F39566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA76B4625E65C8D00F39566 /* LaunchScreen.storyboard */; };
 		FAA76B5325E65C8D00F39566 /* LinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA76B5225E65C8D00F39566 /* LinkedListTests.swift */; };
 		FAA76B5E25E65C8E00F39566 /* LinkedListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA76B5D25E65C8E00F39566 /* LinkedListUITests.swift */; };
+		FAA76B8525E6630B00F39566 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA76B8425E6630B00F39566 /* LinkedList.swift */; };
+		FAA76B8D25E6637A00F39566 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA76B8C25E6637A00F39566 /* Node.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FAA76B5925E65C8D00F39566 /* LinkedListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA76B5D25E65C8E00F39566 /* LinkedListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListUITests.swift; sourceTree = "<group>"; };
 		FAA76B5F25E65C8E00F39566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA76B8425E6630B00F39566 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		FAA76B8C25E6637A00F39566 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				FAA76B4425E65C8D00F39566 /* Assets.xcassets */,
 				FAA76B4625E65C8D00F39566 /* LaunchScreen.storyboard */,
 				FAA76B4925E65C8D00F39566 /* Info.plist */,
+				FAA76B8425E6630B00F39566 /* LinkedList.swift */,
+				FAA76B8C25E6637A00F39566 /* Node.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA76B4025E65C8C00F39566 /* ViewController.swift in Sources */,
+				FAA76B8D25E6637A00F39566 /* Node.swift in Sources */,
 				FAA76B3C25E65C8C00F39566 /* AppDelegate.swift in Sources */,
+				FAA76B8525E6630B00F39566 /* LinkedList.swift in Sources */,
 				FAA76B3E25E65C8C00F39566 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +446,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LinkedList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +465,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LinkedList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
