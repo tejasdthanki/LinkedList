@@ -7,7 +7,11 @@
 
 import UIKit
 
-public class Node<T> {
+public class Node<T>:Equatable {
+    public static func == (lhs: Node<T>, rhs: Node<T>) -> Bool {
+        return lhs.next == rhs.next && lhs.prev == rhs.prev
+    }
+    
     var data: T
     var next:Node?
     weak var prev:Node?
